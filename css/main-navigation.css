@@ -8,14 +8,20 @@
     z-index:1;
 }
 
+
+@media (max-width:767px){
+    .main-navigation{
+        max-width: 330px;
+    }
+}
 .main-navigation__logo-image{
     width:70px;
     margin-right: 20px;
 }
 @media(max-width:991px){
     .main-navigation__logo-image{
-        width:40px ;
-        margin-right: 10px;
+        width:35px ;
+        margin-right: 5px;
     }
 }
 
@@ -42,7 +48,7 @@
 
 @media(max-width:991px){
     .main-navigation__logo-link{
-        font-size:28px ;
+        font-size:25px ;
     }
 }
 
