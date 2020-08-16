@@ -13,7 +13,7 @@
 
 
 .menu__column{
- columns: 3;
+flex-basis: 33%;
     padding: 0 15px;
   
 }
